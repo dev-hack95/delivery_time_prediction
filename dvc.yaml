@@ -1,0 +1,8 @@
+stages:
+  preprocess_and_train:
+    cmd: python src/pipeline/training_pipeline.py
+    deps:
+    - data/raw/finalTrain.csv
+    - src/pipeline/training_pipeline.py
+    outs:
+    - artifacts/

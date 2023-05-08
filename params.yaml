@@ -1,0 +1,9 @@
+RandomForest:
+  n_estimators: 500
+  criterion: squared_error
+  max_features: sqrt
+
+ElasticNet:
+  params:
+    alpha: 0.9
+    l1_ratio: 0.4

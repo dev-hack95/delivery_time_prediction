@@ -1,0 +1,16 @@
+schema: '2.0'
+stages:
+  preprocess_and_train:
+    cmd: python src/pipeline/training_pipeline.py
+    deps:
+    - path: data/raw/finalTrain.csv
+      md5: a732ab879bba5f3a9b66a620d299069e
+      size: 6371825
+    - path: src/pipeline/training_pipeline.py
+      md5: bd14a9bc2ba845c62df8d354a658c57c
+      size: 516
+    outs:
+    - path: artifacts/
+      md5: 8a1c061eadf525611fbda7f59cb11445.dir
+      size: 1201803329
+      nfiles: 2

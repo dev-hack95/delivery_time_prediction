@@ -1,0 +1,9 @@
+# local package
+numpy
+pandas
+scikit-learn
+streamlit
+seaborn
+plotly
+haversine
+folium
